@@ -1,0 +1,11 @@
+Ejercicio 3
+
+consultorio medico
+
+#Nombre Completo
+#Fecha de nacimiento
+#direccion de la clinica
+#datos del medicamento
+		*Nombre
+		*dosis
+		*Instrucciones de uso
