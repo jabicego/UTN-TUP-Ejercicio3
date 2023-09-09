@@ -10,10 +10,15 @@ consultorio medico
 *dosis
 *Instrucciones de uso
 
+AGREGAR PROXIMO TURNO
+
+los datos personales ya los tengo, me faltarian la fecha y hora
+disponible del paciente para darle un turno y darle el comprobante.
+
 Seudocódigo:
 Algoritmo clinica
 
-Definir a, b, c, d Como Caracter
+Definir a, b, c, d, g Como Caracter
 Definir e, f Como Entero
 c = "Clinica Gutierrez. Alvear 122"
 
@@ -29,6 +34,8 @@ Escribir  "Dosis en Miligramos:";
 Leer  e;
 Escribir  "Horas entre cada toma del medicamento";
 Leer  f;
+Escribir  "Ingrese fecha y hora disponible para darle un turno:";
+Leer  g;
 Escribir  "***RECETA MEDICA***";
 Escribir  "Nombre del paciente: " + a;
 Escribir  "Fecha de Nacimiento: ", b;
@@ -36,5 +43,7 @@ Escribir  "Nombre del Medicamento: " + d;
 Escribir  "Dosis:",e ," mm";
 Escribir  "Tomar 1 dosis cada ", f, " horas";
 Escribir  c;
+Escribir  "***Proximo Turno***";
+Escribir  g;
 
 FinAlgoritmo
