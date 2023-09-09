@@ -1,0 +1,40 @@
+Ejercicio 3
+ 
+consultorio medico
+ 
+#Nombre Completo
+#Fecha de nacimiento
+#direccion de la clinica
+#datos del medicamento
+*Nombre
+*dosis
+*Instrucciones de uso
+
+Seudocódigo:
+Algoritmo clinica
+
+Definir a, b, c, d Como Caracter
+Definir e, f Como Entero
+c = "Clinica Gutierrez. Alvear 122"
+
+Escribir "Por favor, ingrese los siguientes datos";
+Escribir  "Nombre Completo:";
+Leer  a;
+Escribir  "Fecha de Nacimiento:";
+Leer b;
+Escribir  "ingrese los datos del medicamento:";
+Escribir  "Nombre del medicamento:";
+Leer  d;
+Escribir  "Dosis en Miligramos:";
+Leer  e;
+Escribir  "Horas entre cada toma del medicamento";
+Leer  f;
+Escribir  "***RECETA MEDICA***";
+Escribir  "Nombre del paciente: " + a;
+Escribir  "Fecha de Nacimiento: ", b;
+Escribir  "Nombre del Medicamento: " + d;
+Escribir  "Dosis:",e ," mm";
+Escribir  "Tomar 1 dosis cada ", f, " horas";
+Escribir  c;
+
+FinAlgoritmo
