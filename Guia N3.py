@@ -1,0 +1,12 @@
+hospital = input("Nombre del establecimiento:")
+direccion = input("Dirección del establecimiento:")
+paciente = input("Nombre del paciente:")
+nacimiento = input ("Fecha de nacimiento del paciente: (dd/mm/aaaa)")
+medicamento = input("Medicamento a recetar:")
+dosis = input("Dosis: (Ingrese un valor númerico)")
+via = input("¿Por que vía será la ingesta del medicamento?")
+frecuencia = input("Frecuencia de la ingesta: (Ingrese un valor númerico)")
+duracion = input("Duracion del tratamiento (Ingrese el número con la unidad de tiempo)")
+
+print ("🚑🚑 " + hospital + " 🚑🚑 /// 📍" + direccion + "\nApellido y Nombre: " + paciente + "\nFecha de nacimiento: " + nacimiento)
+print(medicamento + "\nTomar " + dosis + " ml cada " + frecuencia + " horas por via " + via + " horas durante " + duracion)
